@@ -11,7 +11,7 @@ let gender = prompt('Укажите ваш пол', 'мужчина');
 let age = +prompt('Сколько вам лет?', 18);
 
 //Запишите все в объект.
-
+alert(`Вас зовут ${name}, вы ${gender} и вам ${age} лет`);
 let isCorrect = confirm('Записать введенную информацию?');
 
 if (isCorrect) user = { name, gender, age };
